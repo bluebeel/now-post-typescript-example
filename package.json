@@ -1,0 +1,22 @@
+{
+  "name": "post-typescript",
+  "private": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "now -f",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/micro": "^7.3.3",
+    "content-type": "^1.0.4",
+    "is-stream": "^1.1.0",
+    "micro": "^9.3.3",
+    "raw-body": "^2.3.3",
+    "url-parse": "^1.4.4"
+  }
+}
